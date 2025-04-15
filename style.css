@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  overflow: hidden;
+  background-color: #111;
+  font-family: sans-serif;
+}
+
+#gameContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#gameArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+  background: #222;
+  width: 100%;
+  height: 100%;
+}
+
+/* Add styles for player, obstacles, and power-ups */
+.player {
+  width: 30px;
+  height: 30px;
+  background-color: #0f0;
+  border-radius: 50%;
+}
+
+.obstacle {
+  width: 40px;
+  background-color: #f00;
+}
+
+.power-up {
+  width: 20px;
+  height: 20px;
+  background-color: #ff0;
+  border-radius: 50%;
+}
